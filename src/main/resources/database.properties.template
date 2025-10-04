@@ -1,0 +1,17 @@
+# Informix Database Configuration
+# Copy this file to database.properties and update with your database credentials
+
+# Database connection settings for Informix Docker container
+# Docker run: docker run -it --name iif_developer_edition --privileged -p 9088:9088 -p 9089:9089 -p 27017:27017 -p 27018:27018 -p 27883:27883 -e LICENSE=accept ibmcom/informix-developer-database:latest
+informix.host=localhost
+informix.port=9088
+informix.database=sysmaster
+informix.server=informix
+
+# Default credentials for Informix Docker container
+# Username: informix, Password: in4mix
+informix.username=informix
+informix.password=in4mix
+
+# Connection pool settings
+informix.pool.size=5
