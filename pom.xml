@@ -26,12 +26,13 @@
 
     <dependencies>
         <!-- MCP SDK -->
+        <!-- https://mvnrepository.com/artifact/io.modelcontextprotocol.sdk/mcp-bom -->
         <dependency>
             <groupId>io.modelcontextprotocol.sdk</groupId>
             <artifactId>mcp</artifactId>
-            <version>${mcp.sdk.version}</version>
-        </dependency>
+            <version>0.14.0</version>
 
+        </dependency>
 
 
         <!-- Embedded Jetty -->
